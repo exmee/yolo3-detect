@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 # yolo3-detect
 object detect, face detect, video detect
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ffff71d73287c49104f5afd75067d524298618b1
 安装环境：
 	按照env文件夹中的文件安装虚拟环境
 
@@ -33,8 +36,13 @@ train:
 
 
 另：
+<<<<<<< HEAD
 1、convert.py可以把Darknet模型转换为Keras模型
 	例：python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
 2、如有解决不了的问题详见https://github.com/allanzelener/YAD2K
 
 >>>>>>> first commit
+=======
+convert.py可以把Darknet模型转换为Keras模型
+	例：python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
+>>>>>>> ffff71d73287c49104f5afd75067d524298618b1
