@@ -17,11 +17,11 @@ face detect:
 
 train:  
 1、根据train.txt的格式构造数据集的输入文件，代码中修改路径annotation_path  
-	 行格式:' image_file_path box1 box2…boxN ';
+	 行格式:' image_file_path box1 box2…boxN ';  
 	 box格式:' x_min,y_min,x_max,y_max,class_id '
 2、根据'model_data/yolo_anchors.txt'的格式构造数据集的类别文件放入model_data文件夹，代码中修改路径classes_path  
-3、选择训练的初始权重，代码中修改路径def _main():/weights_path  
-	 一般为yolo.h5或者darknet53_weights.h5（yolo3的原始权重）
+3、选择训练的初始权重，代码中修改路径def _main():/weights_path
+	 一般为yolo.h5或者darknet53_weights.h5（yolo3的原始权重）  
 4、运行train.py  
 
 检测视频中的物体：  
